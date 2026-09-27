@@ -16,8 +16,8 @@ def add(a, b):
 
 # ---------- Operation: subtraction (branch subtraction_Remaldora) ----------
 def subtract(a, b):
-    """Return a minus b."""
-    return a - b
+    """Return a minus b, rounded to hide float noise."""
+    return round(a - b, 10)
 
 
 # ---------- Operation: multiplication (branch multiplication_Remaldora) ----------
