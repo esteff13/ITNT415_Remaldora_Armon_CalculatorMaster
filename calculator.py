@@ -29,8 +29,8 @@ def multiply(a, b):
 
 # ---------- Operation: division (branch division_Remaldora) ----------
 def divide(a, b):
-    """Division - to be implemented on branch division_Remaldora."""
-    raise NotImplementedError
+    """Return a divided by b."""
+    return a / b
 
 
 # ---------- Helpers (main branch) ----------
