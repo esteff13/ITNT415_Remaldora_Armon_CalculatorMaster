@@ -1,8 +1,8 @@
 # ITNT415_Remaldora_Armon_CalculatorMaster
 
-**Student Name:** Armon Jhon M. Remaldora
-**Course and Section:** S-ITNT415 - BIT41
-**Assessment:** Midterm Summative Assessment - Calculator Master
+- **Student Name:** Armon Jhon M. Remaldora
+- **Course and Section:** S-ITNT415 - BIT41
+- **Assessment:** Midterm Summative Assessment - Calculator Master
 
 ## Project Description
 Calculator Master is a menu-driven Python calculator built with Git and GitHub.
