@@ -22,8 +22,8 @@ def subtract(a, b):
 
 # ---------- Operation: multiplication (branch multiplication_Remaldora) ----------
 def multiply(a, b):
-    """Multiplication - to be implemented on branch multiplication_Remaldora."""
-    raise NotImplementedError
+    """Return a times b."""
+    return a * b
 
 
 # ---------- Operation: division (branch division_Remaldora) ----------
