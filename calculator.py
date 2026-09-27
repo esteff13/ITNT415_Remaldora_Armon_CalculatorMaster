@@ -22,8 +22,9 @@ def subtract(a, b):
 
 # ---------- Operation: multiplication (branch multiplication_Remaldora) ----------
 def multiply(a, b):
-    """Return a times b."""
-    return a * b
+    """Return a times b; turns -0.0 into 0 for clean output."""
+    result = round(a * b, 10)
+    return 0.0 if result == 0 else result
 
 
 # ---------- Operation: division (branch division_Remaldora) ----------
