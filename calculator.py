@@ -10,8 +10,8 @@ APP_NAME = "Calculator Master by Remaldora"
 
 # ---------- Operation: addition (branch addition_Remaldora) ----------
 def add(a, b):
-    """Return the sum of a and b."""
-    return a + b
+    """Return the sum of a and b, rounded to hide float noise."""
+    return round(a + b, 10)
 
 
 # ---------- Operation: subtraction (branch subtraction_Remaldora) ----------
