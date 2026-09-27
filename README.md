@@ -34,4 +34,6 @@ python3 calculator.py
 ```
 
 ## Sample Execution Screenshot
-_Added after all branches are merged._
+Final program on `main` after all four feature branches were merged (addition 12.5 + 7.5 and the division-by-zero check):
+
+![Sample execution of Calculator Master](screenshots/sample_execution.png)
