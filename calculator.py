@@ -29,8 +29,10 @@ def multiply(a, b):
 
 # ---------- Operation: division (branch division_Remaldora) ----------
 def divide(a, b):
-    """Return a divided by b."""
-    return a / b
+    """Return a divided by b; refuses to divide by zero."""
+    if b == 0:
+        raise ZeroDivisionError("Division by zero is not allowed.")
+    return round(a / b, 10)
 
 
 # ---------- Helpers (main branch) ----------
